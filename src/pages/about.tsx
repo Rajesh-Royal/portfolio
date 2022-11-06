@@ -26,7 +26,7 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="About Rajesh Royal, a Senior Software Engineer and Consultant in the UK"
+				title="About Rajesh Royal, a Senior Software Engineer and Consultant in the India"
 				description="As a passionate front-end software developer, I create amazing websites and web apps to make the internet a better place."
 			/>
 			<Container>
@@ -34,7 +34,7 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 					Hey, I&apos;m Rajesh Royal
 				</h1>
 				<h2 className="font-bold text-xl md:text-2xl mt-2">
-					Senior Software Engineer from the UK
+					Senior Software Engineer from the India
 				</h2>
 				<p className="mt-8">
 					As a passionate front-end developer, I create amazing websites and web
@@ -76,9 +76,10 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 
 				<div className="flex justify-center mt-8">
 					<Button
-						href="/cv-2022.pdf"
+						href="https://www.linkedin.com/in/rajesh-royal"
 						download={true}
 						className="group flex gap-2 whitespace-nowrap"
+						target="_blank"
 					>
 						<div className="w-6 text-blue-500 group-hover:text-off-white dark:text-purple-500">
 							<Icon icon="DOWNLOAD" />
@@ -97,7 +98,7 @@ export async function getStaticProps() {
 	const { data } = await client.query({
 		query: gql`
 			query AboutPageQuery {
-				podcasts(orderBy: position_ASC) {
+				podcasts(orderBy: publishedAt_ASC) {
 					id
 					name
 					url
