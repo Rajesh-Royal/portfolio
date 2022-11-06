@@ -28,6 +28,7 @@ const moduleExports = {
 
 const sentryWebpackPluginOptions = {
 	silent: false, // Suppresses all logs
+	logLevel: ['info', 'debug'],
 	// For all available options, see:
 	// https://github.com/getsentry/sentry-webpack-plugin#options.
 };
