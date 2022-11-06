@@ -105,7 +105,7 @@ export async function getStaticProps() {
 						}
 					}
 				}
-				salary(where: { id: "cl1fknk2a1mv40bmrio155zi8" }) {
+				salary(where: { id: "cla56m7eh34c70co7eo7ziq4f" }) {
 					minimum
 					median
 					maximum
@@ -117,7 +117,7 @@ export async function getStaticProps() {
 	return {
 		props: {
 			markdown: data.page.content.raw,
-			references: data.page.content.references,
+			references: data.page.content.references || {},
 			salary: data.salary,
 		},
 	};
