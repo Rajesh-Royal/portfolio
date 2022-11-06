@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2022 Jacob Herper
+Copyright (c) 2022 Rajesh Royal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

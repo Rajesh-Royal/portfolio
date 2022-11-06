@@ -1,9 +1,9 @@
-import { client } from 'apollo-client';
-import { format } from 'date-fns';
 import { gql } from '@apollo/client';
 import { IBlogPost } from '@types';
-import Link from 'next/link';
+import { client } from 'apollo-client';
+import { format } from 'date-fns';
 import { NextPage } from 'next';
+import Link from 'next/link';
 
 import { AnimatePage } from 'Atoms/AnimatePage';
 import { Container } from 'Atoms/Container';
@@ -17,7 +17,7 @@ const BlogPage: NextPage<IProps> = ({ posts }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Software Engineering Blog by Jacob Herper"
+				title="Software Engineering Blog by Rajesh Royal"
 				description="I try to make an effort to document my journey as a software developer in the form of blog posts. Here you find some of the articles I published over the years."
 			/>
 			<Container>

@@ -131,7 +131,7 @@ exports[`Layout renders correctly 1`] = `
       <span>
         © 
         2022
-         Jacob Herper
+         Rajesh Royal
       </span>
       <ul
         class="flex gap-6"

@@ -1,10 +1,10 @@
-import { client } from 'apollo-client';
-import format from 'date-fns/format';
 import { gql } from '@apollo/client';
-import { IBlogPost } from '@types';
-import { NextPage } from 'next';
 import { RichText } from '@graphcms/rich-text-react-renderer';
 import { RichTextContent } from '@graphcms/rich-text-types';
+import { IBlogPost } from '@types';
+import { client } from 'apollo-client';
+import format from 'date-fns/format';
+import { NextPage } from 'next';
 
 import { AnimatePage } from 'Atoms/AnimatePage';
 import { Container } from 'Atoms/Container';
@@ -33,7 +33,7 @@ const PostPage: NextPage<IProps> = ({
 	return (
 		<AnimatePage>
 			<SeoHead
-				title={`${title} - Jacob Herper's Blog`}
+				title={`${title} - Rajesh Royal's Blog`}
 				description={seoDescription}
 			/>
 			<Container>

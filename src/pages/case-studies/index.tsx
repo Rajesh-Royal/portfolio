@@ -1,13 +1,13 @@
-import { client } from 'apollo-client';
 import { gql } from '@apollo/client';
 import { ICaseStudy } from '@types';
-import { mapCaseStudies } from 'Utils/mappings/mapCaseStudies';
+import { client } from 'apollo-client';
 import { NextPage } from 'next';
+import { mapCaseStudies } from 'Utils/mappings/mapCaseStudies';
 
 import { AnimatePage } from 'Atoms/AnimatePage';
-import { CaseStudy } from 'Molecules/CaseStudy';
 import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';
+import { CaseStudy } from 'Molecules/CaseStudy';
 
 interface IProps {
 	caseStudies: ICaseStudy[];
@@ -17,7 +17,7 @@ const CaseStudiesPage: NextPage<IProps> = ({ caseStudies }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Software Engineering Case Studies – Jacob Herper"
+				title="Software Engineering Case Studies – Rajesh Royal"
 				description={`Here you can find ${caseStudies.length} case studies of projects I have worked on over the last few years. Learn how I have overcome challenges.`}
 			/>
 			<Container>

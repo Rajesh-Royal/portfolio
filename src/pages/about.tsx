@@ -1,19 +1,19 @@
 import { IEducation, IJob, IPodcast } from '@types';
 
-import { client } from 'apollo-client';
 import { gql } from '@apollo/client';
+import { client } from 'apollo-client';
+import { NextPage } from 'next';
 import { mapEducation } from 'Utils/mappings/mapEducation';
 import { mapJobs } from 'Utils/mappings/mapJobs';
 import { mapPodcasts } from 'Utils/mappings/mapPodcasts';
-import { NextPage } from 'next';
 
 import { AnimatePage } from 'Atoms/AnimatePage';
 import { Button } from 'Atoms/Button';
 import { Container } from 'Atoms/Container';
-import { Education } from 'Organisms/Education';
 import { Icon } from 'Atoms/Icon';
-import { PodcastList } from 'Molecules/PodcastList';
 import { SeoHead } from 'Atoms/SeoHead';
+import { PodcastList } from 'Molecules/PodcastList';
+import { Education } from 'Organisms/Education';
 import { WorkExperience } from 'Organisms/WorkExperience';
 
 interface IProps {
@@ -26,12 +26,12 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="About Jacob Herper, a Senior Software Engineer and Consultant in the UK"
+				title="About Rajesh Royal, a Senior Software Engineer and Consultant in the UK"
 				description="As a passionate front-end software developer, I create amazing websites and web apps to make the internet a better place."
 			/>
 			<Container>
 				<h1 className="headline text-3xl md:text-5xl lg:text-6xl mt-8">
-					Hey, I&apos;m Jacob Herper
+					Hey, I&apos;m Rajesh Royal
 				</h1>
 				<h2 className="font-bold text-xl md:text-2xl mt-2">
 					Senior Software Engineer from the UK

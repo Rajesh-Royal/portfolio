@@ -1,10 +1,10 @@
 import { ICaseStudy } from '@types';
 
-import { client } from 'apollo-client';
 import { gql } from '@apollo/client';
-import Image from 'next/image';
-import { NextPage } from 'next';
 import { RichText } from '@graphcms/rich-text-react-renderer';
+import { client } from 'apollo-client';
+import { NextPage } from 'next';
+import Image from 'next/image';
 
 import { AnimatePage } from 'Atoms/AnimatePage';
 import { Button } from 'Atoms/Button';
@@ -34,7 +34,7 @@ const CaseStudyPage: NextPage<IProps> = ({ caseStudy }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title={`Case Study: ${title} - Jacob Herper's Case Studies`}
+				title={`Case Study: ${title} - Rajesh Royal's Case Studies`}
 				description={seoDescription}
 			/>
 			<Container>

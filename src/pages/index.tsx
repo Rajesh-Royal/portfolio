@@ -32,11 +32,11 @@ const IndexPage = () => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Senior Software Engineer and Consultant – Jacob Herper"
+				title="Senior Software Engineer and Consultant – Rajesh Royal"
 				description="A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting."
 				keywords={[
 					'Software Engineer',
-					'Jacob Herper',
+					'Rajesh Royal',
 					'Software Consulting',
 					'Front-End',
 					'Full-Stack',
@@ -51,7 +51,7 @@ const IndexPage = () => {
 			<section id="home" className="h-full">
 				<Container>
 					<h1 className="headline mt-20 text-3xl md:text-5xl lg:text-6xl">
-						Hey, I&apos;m Jacob Herper 👋
+						Hey, I&apos;m Rajesh Royal 👋
 					</h1>
 					<p className="my-8 text-lg">
 						I am a passionate Software Engineer, specialised in front-end
