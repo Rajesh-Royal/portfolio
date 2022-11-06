@@ -8,22 +8,22 @@ const Footer = () => {
 				profiles={[
 					{
 						name: 'Github',
-						url: 'https://www.github.com/jakeherp',
+						url: 'https://www.github.com/rajesh-royal',
 						icon: 'GITHUB',
 					},
 					{
 						name: 'LinkedIn',
-						url: 'https://www.linkedin.com/in/jacobherper',
+						url: 'https://www.linkedin.com/in/rajesh-royal',
 						icon: 'LINKEDIN',
 					},
 					{
 						name: 'Twitter',
-						url: 'https://twitter.com/jakeherp',
+						url: 'https://twitter.com/Raj_896',
 						icon: 'TWITTER',
 					},
 					{
 						name: 'Instagram',
-						url: 'https://www.instagram.com/jakeherp',
+						url: 'https://www.instagram.com/rajesh.royal',
 						icon: 'INSTAGRAM',
 					},
 				]}
