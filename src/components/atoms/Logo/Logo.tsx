@@ -1,7 +1,7 @@
-import { motion } from 'framer-motion';
 import Image from 'next/image';
-import Link from 'next/link';
 import Jacob from './rajesh-royal-small.png';
+import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 const Logo = () => {
 	return (
@@ -31,4 +31,3 @@ const Logo = () => {
 };
 
 export { Logo };
-

@@ -8,7 +8,10 @@
 		"plugin:prettier/recommended",
 		"plugin:jest/recommended"
 	],
-	"plugins": ["@typescript-eslint", "jsx-a11y"],
+	"plugins": [
+		"@typescript-eslint",
+		"jsx-a11y"
+	],
 	"settings": {
 		"react": {
 			"version": "detect"
@@ -19,10 +22,21 @@
 			2,
 			{
 				"ignoreCase": true,
-				"ignoreDeclarationSort": false,
-				"ignoreMemberSort": false,
-				"memberSyntaxSortOrder": ["none", "all", "single", "multiple"],
+				"ignoreDeclarationSort": true,
+				"ignoreMemberSort": true,
+				"memberSyntaxSortOrder": [
+					"none",
+					"all",
+					"single",
+					"multiple"
+				],
 				"allowSeparatedGroups": true
+			}
+		],
+		"prettier/prettier": [
+			"error",
+			{
+				"endOfLine": "auto"
 			}
 		],
 		"react/display-name": "off",

@@ -1,5 +1,4 @@
 import { NodeRendererType } from '@graphcms/rich-text-react-renderer';
-import { ReactNode } from 'react';
 
 import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 import Image from 'next/image';
