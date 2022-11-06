@@ -143,29 +143,6 @@ const IndexPage = () => {
 					</p>
 
 					<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
-						Code Audit
-					</h3>
-					<p className="text-xl mt-4 md:text-xl lg:text-2xl">
-						I make sure your code is accessible, scalable and performs well.
-					</p>
-					<p className="mt-4 mb-4 text-lg leading-7">
-						Code Auditing is the process of auditing software code for
-						accessibility, scalability and performance. My expertise includes
-						assisting in developing best practices for secure coding, finding
-						bugs and defects in a system, recommending best practices for
-						scalability and performance.
-					</p>
-					<p className="mt-4 mb-4 text-lg leading-7">
-						Nobody likes software projects to fail. But there are some common
-						mistakes that developers make, that can cause software projects to
-						underperform or even crash. And these issues aren&apos;t always the
-						fault of a developer, but sometimes the code itself is just bad or
-						outdated. I&apos;ve been auditing the code of projects for
-						compliance and performance for years and enjoy working with
-						companies of all sizes to help them scale.
-					</p>
-
-					<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
 						Website & App Development
 					</h3>
 					<p className="text-xl mt-4 md:text-xl lg:text-2xl">
@@ -212,28 +189,6 @@ const IndexPage = () => {
 						users with disabilities interact with your product, what traits make
 						for effective interfaces for people with disabilities and insight in
 						how to design these interfaces going forward.
-					</p>
-
-					<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
-						E-Commerce
-					</h3>
-					<p className="text-xl mt-4 md:text-xl lg:text-2xl">
-						I know how to help you sell more, with less effort.
-					</p>
-					<p className="mt-4 mb-4 text-lg leading-7">
-						E-commerce development is my trade. I have years of experience
-						working across different industries in B2B and B2C e-commerce
-						development. Whether you&apos;re looking to create an MVP or start a
-						new project, I can help you achieve financial goals through
-						performant microservice architecture and modern JavaScript
-						frontends.
-					</p>
-					<p className="mt-4 mb-4 text-lg leading-7">
-						I can help you design, develop and deploy modern frontend
-						applications built with a microservice architecture. With years of
-						experience working across different industries in B2B and B2C
-						e-commerce development, I can help you achieve financial goals
-						through performant frontends built in React, Redux and GraphQL.
 					</p>
 				</Container>
 			</section>
