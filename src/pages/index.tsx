@@ -8,10 +8,11 @@ import LogoFigma from 'Public/assets/tools/figma.svg';
 import LogoGraphql from 'Public/assets/tools/graphql.svg';
 import LogoHygraph from 'Public/assets/tools/hygraph.svg';
 import LogoNext from 'Public/assets/tools/nextjs.svg';
-import LogoPrismic from 'Public/assets/tools/prismic.svg';
 import LogoStorybook from 'Public/assets/tools/storybook.svg';
-import LogoSvelte from 'Public/assets/tools/svelte.svg';
 import LogoVercel from 'Public/assets/tools/vercel.svg';
+import ExpressJsLogo from 'Public/assets/tools/expressjs.svg';
+import MongoDBLogo from 'Public/assets/tools/mongodb.svg';
+import NodejsLogo from 'Public/assets/tools/nodejs.svg';
 
 const IndexPage = () => {
 	const talkAbout = [
@@ -55,10 +56,10 @@ const IndexPage = () => {
 					</h1>
 					<p className="my-8 text-lg">
 						I am a passionate Software Engineer, specialised in front-end
-						development using React and TypeScript. As an advocate for web
-						performance and accessibility and an evangelist for the Jamstack, I
-						create amazing web applications to make the internet a better place.
-						You can talk to me about{' '}
+						development using React and TypeScript. I design and code
+						beautifully simple things, and I love what I do. I also enjoy
+						building new things, contributing to the open-source community, and
+						continuously learning. You can talk to me about{' '}
 						<Typed
 							loop
 							typeSpeed={80}
@@ -95,11 +96,12 @@ const IndexPage = () => {
 
 					<div className="flex flex-wrap items-center justify-center max-w-5xl mt-8 mx-auto gap-x-16 gap-y-8">
 						<LogoNext className="w-32" aria-label="Next.js" />
-						<LogoSvelte className="w-12" aria-label="SvelteKit" />
 						<LogoHygraph className="w-28 md:w-36" aria-label="Hygraph" />
-						<LogoPrismic className="w-32 md:w-40" aria-label="Prismic" />
 						<LogoStorybook className="w-32 md:w-40" aria-label="Storybook" />
 						<LogoGraphql className="w-28 md:w-36" aria-label="GraphQL" />
+						<MongoDBLogo className="w-28 md:w-36" aria-label="GraphQL" />
+						<NodejsLogo className="w-16 md:w-18" aria-label="GraphQL" />
+						<ExpressJsLogo className="w-28 md:w-36" aria-label="GraphQL" />
 						<LogoVercel className="w-32 md:w-36" aria-label="Vercel" />
 						<LogoFigma className="w-8" aria-label="Figma" />
 						<LogoCypress className="w-32 md:w-40" aria-label="Cypress" />

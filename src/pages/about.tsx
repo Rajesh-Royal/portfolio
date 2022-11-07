@@ -38,25 +38,34 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 				</h2>
 				<p className="mt-8">
 					As a passionate front-end developer, I create amazing websites and web
-					apps to make the internet a better place. I am an advocate for web
-					performance and accessibility as well as a JAMstack enthusiast with
-					experience in serverless technologies.
+					apps and I enjoy building new things, contributing to the open-source
+					community, and continuously learning. I&apos;m quietly confident,
+					naturally curious, and perpetually working on improving my chops one
+					problem at a time. I&apos;m a JAMstack enthusiast with experience in
+					serverless technologies.
 				</p>
 				<p className="my-4">
-					I am 31 years old and have been a web developer for as long as I can
-					think. The technologies I work with are JavaScript, HTML and CSS with
-					a focus on the frameworks React.js, Gatsby, Next.js, Node and Express.
-					I use code not only to do my day-to-day job, but also to solve
-					everyday problems I come across.
+					I am 24 years old and have been a web developer from last 5 years. The
+					technologies I work with are JavaScript, HTML5 and CSS3 with a focus
+					on the frameworks React.js, Gatsby, Next.js, Node, MongoDB and
+					Express. I use code not only to do my day-to-day job, but also to
+					solve everyday problems I come across. I have published some really
+					good{' '}
+					<a
+						href="https://www.npmjs.com/~rajesh896"
+						target={'_blank'}
+						rel="noreferrer"
+						className="underline"
+					>
+						open-source libraries to NPM.
+					</a>
 				</p>
 				<p>
-					When I am not writing code I love to spend time with my wife and 3
-					year old daughter at home in London or travelling around the world. We
-					are quite a multi-cultural family with me having grown up in Germany
-					🇩🇪 and my wife being from Mexico 🇲🇽, which is why we raise our
-					daughter trilingual. I myself speak five languages (some better than
-					others). Furthermore I enjoy cooking fresh food when I come home after
-					a long day at the office.
+					When I am not writing code I love to spend time with my friends and
+					family at home in Ajmer or travelling around the country. I myself
+					speak three languages (some better than others). Furthermore I enjoy
+					cooking, outdoor sports mostly basketball and riding my bullet
+					(planning to go for a ZX-10R).
 				</p>
 				<h2 className="headline mt-12 mb-4 text-4xl">Podcasts I enjoy</h2>
 
@@ -68,8 +77,8 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 
 				<h2 className="headline mt-12 mb-4 text-4xl">Education</h2>
 				<p className="mb-6">
-					I am mostly self-taught, but here are some of the most relevant
-					certifications I have achieved:
+					I am mostly self-taught, but here is the list of universities that I
+					attended
 				</p>
 
 				<Education education={education} />
