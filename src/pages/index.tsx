@@ -34,7 +34,7 @@ const IndexPage = () => {
 		<AnimatePage>
 			<SeoHead
 				title="Senior Software Engineer and Consultant – Rajesh Royal"
-				description="A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting."
+				description="A Front-End Software Engineer with a focus on JavaScript and React. I have more than 5 years experience working in software engineering and consulting."
 				keywords={[
 					'Software Engineer',
 					'Rajesh Royal',
