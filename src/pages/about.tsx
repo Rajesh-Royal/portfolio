@@ -38,18 +38,18 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 				</h2>
 				<p className="mt-8">
 					As a passionate front-end developer, I create amazing websites and web
-					apps and I enjoy building new things and contributing to the open-source
-					community, and continuously learning. I&apos;m quietly confident,
-					naturally curious, and perpetually working on improving my chops one
-					problem at a time. I&apos;m a Full Stack JavaScript Developer who has done his major in frontend.
+					apps and I enjoy building new things and contributing to the
+					open-source community, and continuously learning. I&apos;m quietly
+					confident, naturally curious, and perpetually working on improving my
+					chops one problem at a time. I&apos;m a Full Stack JavaScript
+					Developer who has done his major in frontend.
 				</p>
 				<p className="my-4">
-					I am 25 years old and have been a web developer for the last 6 years. The
-					technologies I work with are JavaScript, HTML5, and CSS3 with a focus
-					on the frameworks React.js, Next.js, Nuxt.js, Node, MongoDB and
-					Express. I use code not only to do my day-to-day job but also to
-					solve everyday problems I come across. I have published some really
-					good{' '}
+					I am 25 years old and have been a web developer for the last 6 years.
+					The technologies I work with are JavaScript, HTML5, and CSS3 with a
+					focus on the frameworks React.js, Next.js, Nuxt.js, Node, MongoDB and
+					Express. I use code not only to do my day-to-day job but also to solve
+					everyday problems I come across. I have published some really good{' '}
 					<a
 						href="https://www.npmjs.com/~rajesh896"
 						target={'_blank'}
@@ -61,9 +61,9 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 				</p>
 				<p>
 					When I am not writing code I love to spend time with my friends and
-					family at home in Ajmer or traveling around the country. I
-					speak three languages (some better than others). Furthermore, I enjoy
-					cooking, outdoor sports mostly basketball, and riding my RE bullet.
+					family at home in Ajmer or traveling around the country. I speak three
+					languages (some better than others). Furthermore, I enjoy cooking,
+					outdoor sports mostly basketball, and riding my RE bullet.
 				</p>
 				<h2 className="headline mt-12 mb-4 text-4xl">Podcasts I enjoy</h2>
 
