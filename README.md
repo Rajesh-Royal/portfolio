@@ -1,3 +1,5 @@
+![GitHub deployments](https://img.shields.io/github/deployments/Rajesh-Royal/portfolio/production?label=Vercel%20Deployment)
+
 # Rajesh Royal Portfolio
 
 [![Rajesh Royal - Software Engineer and Consultant in the India](https://github.com/Rajesh-Royal/portfolio/assets/24524924/8b39edae-0f07-4c1d-9d0d-4ae36168440d)](https://portfolio-rajesh-royal.vercel.app/)
