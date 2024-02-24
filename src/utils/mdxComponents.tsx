@@ -3,6 +3,8 @@ import { NodeRendererType } from '@graphcms/rich-text-react-renderer';
 import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 import Image from 'next/image';
 import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter';
+import ReactDOM from 'react-dom';
+import { ReactElement } from 'react';
 
 export const mdxComponents: NodeRendererType = {
 	h2: ({ children }) => <h2 className="headline text-3xl mt-8">{children}</h2>,
@@ -33,6 +35,22 @@ export const mdxComponents: NodeRendererType = {
 			{children as string}
 		</SyntaxHighlighter>
 	),
+	code_block: ({ children }) => {
+		const rendrableContent =
+			typeof children !== 'string'
+				? (children as ReactElement)?.props?.content?.[0].text
+				: children;
+
+		return (
+			<SyntaxHighlighter
+				language="typescript"
+				style={dracula}
+				className="text-sm rounded-md p-4 border border-grey-300 dark:border-grey-700 shadow-lg shadow-grey-500 dark:shadow-grey-800"
+			>
+				{rendrableContent}
+			</SyntaxHighlighter>
+		);
+	},
 	img: ({ altText, src }) => (
 		<div className="relative w-full aspect-video drop-shadow-xl">
 			<Image
