@@ -63,7 +63,7 @@ export async function getStaticProps() {
 			}
 		`,
 	});
-
+	console.log('data = ', JSON.stringify(data));
 	return {
 		props: {
 			caseStudies: mapCaseStudies(data.caseStudies),

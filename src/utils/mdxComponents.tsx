@@ -40,7 +40,7 @@ export const mdxComponents: NodeRendererType = {
 				alt={altText}
 				layout="fill"
 				objectFit="cover"
-				className="mt-4 mb-4"
+				className="mt-4 mb-4 !min-h-0 !h-auto"
 			/>
 		</div>
 	),
