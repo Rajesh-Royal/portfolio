@@ -26,7 +26,7 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="About Rajesh Royal, a Senior Software Engineer and Consultant in the India"
+				title="About Rajesh Royal, a Senior Software Engineer and Consultant in India"
 				description="As a passionate front-end software developer, I create amazing websites and web apps to make the internet a better place."
 			/>
 			<Container>
@@ -34,21 +34,20 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 					Hey, I&apos;m Rajesh Royal
 				</h1>
 				<h2 className="font-bold text-xl md:text-2xl mt-2">
-					Senior Software Engineer from the India
+					Senior Software Engineer from India
 				</h2>
 				<p className="mt-8">
 					As a passionate front-end developer, I create amazing websites and web
-					apps and I enjoy building new things, contributing to the open-source
+					apps and I enjoy building new things and contributing to the open-source
 					community, and continuously learning. I&apos;m quietly confident,
 					naturally curious, and perpetually working on improving my chops one
-					problem at a time. I&apos;m a JAMstack enthusiast with experience in
-					serverless technologies.
+					problem at a time. I&apos;m a Full Stack JavaScript Developer who has done his major in frontend.
 				</p>
 				<p className="my-4">
-					I am 24 years old and have been a web developer from last 5 years. The
-					technologies I work with are JavaScript, HTML5 and CSS3 with a focus
-					on the frameworks React.js, Gatsby, Next.js, Node, MongoDB and
-					Express. I use code not only to do my day-to-day job, but also to
+					I am 25 years old and have been a web developer for the last 6 years. The
+					technologies I work with are JavaScript, HTML5, and CSS3 with a focus
+					on the frameworks React.js, Next.js, Nuxt.js, Node, MongoDB and
+					Express. I use code not only to do my day-to-day job but also to
 					solve everyday problems I come across. I have published some really
 					good{' '}
 					<a
@@ -62,10 +61,9 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 				</p>
 				<p>
 					When I am not writing code I love to spend time with my friends and
-					family at home in Ajmer or travelling around the country. I myself
-					speak three languages (some better than others). Furthermore I enjoy
-					cooking, outdoor sports mostly basketball and riding my bullet
-					(planning to go for a ZX-10R).
+					family at home in Ajmer or traveling around the country. I
+					speak three languages (some better than others). Furthermore, I enjoy
+					cooking, outdoor sports mostly basketball, and riding my RE bullet.
 				</p>
 				<h2 className="headline mt-12 mb-4 text-4xl">Podcasts I enjoy</h2>
 
