@@ -1,20 +1,19 @@
 # Rajesh Royal Portfolio
 
-[![Rajesh Royal - Software Engineer and Consultant in the UK](https://res.cloudinary.com/jacobherper/image/upload/v1641565970/website-dark-light.png)](https://jacobherper.com/)
+[![Rajesh Royal - Software Engineer and Consultant in the India](https://github.com/Rajesh-Royal/portfolio/assets/24524924/8b39edae-0f07-4c1d-9d0d-4ae36168440d)](https://portfolio-rajesh-royal.vercel.app/)
+
 
 This is my portfolio website, proudly built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [Tailwind](https://tailwindcss.com/). The content is managed through [GraphCMS](https://graphcms.com/) and accessed via GraphQL endpoints using [Apollo Client](https://www.apollographql.com/).
 
-Previously I built my website using Gatsby, but decided to move over to Next.js due to their major improvements that make it my first choice, not only for applications, but also for websites now.
+Previously I built my website using WordPress but decided to move over to Next.js due to their major improvements and learning purpose that make it my first choice, not only for applications, but also for websites now.
 
-This project is a constant work in progress, so if you find any bugs, typos or other errors, please feel free to open an issue or pull request. This project is open source, so please feel free to fork and adapt for your own projects (credit would be appreciated).
-
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/jakeherp/portfolio)](https://github.com/jakeherp/portfolio/releases)
+This project is a constant work in progress, so if you find any bugs, typos, or other errors, please feel free to open an issue or pull a request. This project is open source, so please feel free to fork and adapt for your projects (credit would be appreciated).
 
 ## Getting this project up and running
 
 1.  **Fork or Clone**
 
-    Fork or clone this project from Github to get your own copy of it.
+    Fork or clone this project from GitHub to get your copy of it.
 
 1.  **Start developing.**
 
